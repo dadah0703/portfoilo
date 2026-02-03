@@ -1,0 +1,50 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 전체 */
+body {
+  font-family: Pretendard, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+/* 헤더 */
+.header {
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* 상세페이지 영역 */
+.detail {
+  max-width: 720px;   /* 모바일 기준 상세페이지 폭 */
+  margin: 0 auto;
+}
+
+/* 이미지 블록 */
+.block img {
+  width: 100%;
+  display: block;
+}
+
+/* 푸터 */
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 14px;
+  color: #999;
+}
